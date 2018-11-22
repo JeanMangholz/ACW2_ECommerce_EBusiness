@@ -23,8 +23,9 @@ Here some information for the website:
 
 5 - Create a footnote or create a reference: 
                 <p>Your text and here the reference<sup><a href="#section1">[1]</a></sup> and the rest of the text</p> 
-        and add in the footer section:   
-                <div id="section1"><p>[1] my reference</p></div>
+
+                and add in the footer section:
+                    <div id="section1"><p>[1] my reference</p></div>
 
 6 - Create a list: 
                 <ul class="square">
@@ -53,6 +54,23 @@ Here some information for the website:
             </div>
 
 10 - Create a rollover image: 
-        <a href="#images" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img name="img2" border=0 height=100 width=90 src="../img/image_rolloveroff.jpg" alt="Rollover"></a></li>
-        and in img folder: name your image: image_rolloveroff.jpg and image_rolloveron.jpg
+        <a href="#images" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img name="img2" border=0 height=100 width=90 src="../img/image1_rolloveroff.jpg" alt="Rollover"></a></li>
+
+        and in img folder: name your image: image1_rolloveroff.jpg and image1_rolloveron.jpg
+                                            image2_rolloveroff.jpg and image2_rolloveron.jpg
+
+        and in script folder, update the name of the images in scriptRollover.js
+
+11 - When you have finish your part: update the knowledge of the chatbot. The chatbot helps the navigation of the client on the website.
+    The javascript program checks if it knowns one of the words that the customer has written (can be a word or a phrase). If it is not present, it will say that it doesn't understand the query. Otherwise, it will respond with a link.
+    example: "I want to see the list of books present in the bibliography". The program will find the keyword "books" in the knowledge and will answer with the link of the bibliography web page.
+
+        extact of the knowledge:
+            var know={
+                "Mike" : "Nice to meet you Mike!",
+                "Books":"Bibliography",
+                "books":"Bibliography",
+                "Book":"Bibliography",
+                "book":"Bibliography",
+                };
 
