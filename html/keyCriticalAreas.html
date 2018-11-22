@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>ACW 2 - Update</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content= "Update" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../style/style.css"/>
+        </head>
+    <body>
+        <!--header-->
+        <header>
+            <div>
+                <img class="center" src="../img/uni.jpg" alt="logoUni" />
+            </div>
+        </header>
+        <br />
+        <div>
+            <!--menu-->
+            <nav>
+                <ul class="topnav">
+                    <li><a href="../index.html" accesskey="1">Home</a></li>
+                    <li><a href="generalDescription.html" accesskey="2">Update</a></li>
+                    <li><a class="active" href="keyCriticalAreas.html" accesskey="3">Update</a></li>
+                    <li><a href="webTechnologyAnalysis.html" accesskey="4">Update</a></li>
+                    <li><a href="analysisEffectivinessWebsite.html" accesskey="5">Update</a></li>
+                    <li><a href="bibliography.html" accesskey="6">Bibliography</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section>
+            <article>
+                <div>
+                    </br>
+                    <p>Text to write</p>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div>
+                    <p>Text to write</p>
+                </div>
+            </article>
+        </section>
+        <!--chat box-->
+        <button class="open-button" onclick="openChatBox()">Chat</button>
+        <div class="chat-popup" id="chatBox">
+            <article class="article-container">
+                <h1>Chat</h1>
+                <p>[Help Desk 2.0: ] I am Help Desk 2.0. I am here to help you. What part of the report do you want to read? </p>
+                <p id="chatLog" class="answerContainer">The answer of your request will appear here: </br></br></p>
+                <!--event.keyCode == 13 => event when press enter-->
+                <input id="userBox" type="text" name="YourRequest" onkeydown="if(event.keyCode == 13){talk()}">
+                <button type="button" class="btn cancel" onclick="closeChatBox()">Close</button>
+             </article>
+        </div>
+        </br>
+        </br>
+        <!--footer-->
+        <footer>
+            <br />
+           <div><a href="bibliography.html">Link to the bibliography</a></div>
+        </footer>
+        <script type="text/javascript" src="../script/scriptChatBot.js"> </script>
+        <script>page=3</script>
+    </body>
+</html>
+
+
