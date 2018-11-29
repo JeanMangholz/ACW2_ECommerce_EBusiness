@@ -161,24 +161,15 @@
                 <br/>
             </div>
         </section>
-        <section>
-            <p class="indent">Introduction => write</p>
-
-            <ul class="square">
-                    <li><a href="html/descriptionTechnology.html">Description of the technology</a></li>
-                    <li><a href="html/trends.html">Trends</a></li>
-                    <li><a href="html/useTechnologyToBusiness.html">Use of the technology to business</a></li>
-                    <li><a href="html/legalSocialEthicalAspects.html">Legal,social and ethical aspects</a></li>
-        </section>
         <!--chat box-->
         <button class="open-button" onclick="openChatBox()">Chat</button>
         <div class="chat-popup" id="chatBox">
             <article class="article-container">
-                <h1>Chat</h1>
-                <p>[Help Desk 2.0: ] I am Help Desk 2.0. I am here to help you. What part of the report do you want to read? </p>
+                <h1 class="titleChatbox">Chat</h1>
+                <p class="colorChatbox">[Help Desk 2.0: ] I am Help Desk 2.0. I am here to help you. What part of the report do you want to read? </p>
                 <p id="chatLog" class="answerContainer">The answer of your request will appear here: </br></br></p>
                 <!--event.keyCode == 13 => event when press enter-->
-                <input id="userBox" type="text" name="YourRequest" onkeydown="if(event.keyCode == 13){talk()}">
+                <input value="Write your query here" id="userBox" type="text" name="YourRequest" onkeydown="if(event.keyCode == 13){talk()}">
                 <button type="button" class="btn cancel" onclick="closeChatBox()">Close</button>
                 </article>
         </div>

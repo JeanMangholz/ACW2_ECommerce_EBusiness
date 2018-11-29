@@ -20,12 +20,13 @@ Here some information for the website:
                 <h1>Title1</h1>
                 <h2>Title2</h2>
                 <h3>Title3</h3>
+    Create a link to the bibliography <a href="bibliography.html">(University of Minnesota, N.D)</a> 
 
-5 - Create a footnote or create a reference: 
-                <p>Your text and here the reference<sup><a href="#section1">[1]</a></sup> and the rest of the text</p> 
+5 - Create a footnote:
+                <p>Your text<sup><a href="#section1">[1]</a></sup> and the rest of the text</p>
 
                 and add in the footer section:
-                    <div id="section1"><p>[1] my reference</p></div>
+                    <div id="section1"><p>[1] my footnote</p></div>
 
 6 - Create a list: 
                 <ul class="square">

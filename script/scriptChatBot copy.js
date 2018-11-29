@@ -98,9 +98,7 @@ function talk(){
     var unknow=0;
     var i=0;
     
-    str="[You:] "+ user;
-    result=str.fontcolor("red");
-    document.getElementById("chatLog").innerHTML+= result +"</br>";
+    document.getElementById("chatLog").innerHTML+= "[You:] " + user+"</br>";
 
     for(i=0;i<user.length;i++){
         arrayOfStrings=user.split(separator);
@@ -116,15 +114,11 @@ function talk(){
             {
                 if(page == 1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are lookink for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"index.html\">Home</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are lookink for are located in " + know[user] + " page"+ "<a href=\"index.html\">Home</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are lookink for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"../index.html\">Home</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are lookink for are located in " + know[user] + " page"+ "<a href=\"../index.html\">Home</a>"+"</br></br>";
                 }
                 break;
 
@@ -133,15 +127,11 @@ function talk(){
             {
                 if(page == 1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"html/descriptionTechnology.html\">Description of the technology</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"html/descriptionTechnology.html\">Description of the technology</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"descriptionTechnology.html\">Description of the technology</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"descriptionTechnology.html\">Description of the technology</a>"+"</br></br>";
                 }
                 break;
             }
@@ -149,15 +139,11 @@ function talk(){
             {
                 if(page ==1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"html/trends.html\">Trends</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"html/trends.html\">Trends</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"trends.html\">Trends</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"trends.html\">Trends</a>"+"</br></br>";
                 }
                 break;
             }
@@ -165,15 +151,11 @@ function talk(){
             {
                 if(page==1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"html/useTechnologyToBusiness.html\">Use of the technology to business</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"html/useTechnologyToBusiness.html\">Use of the technology to business</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"useTechnologyToBusiness.html\">Use of the technology to business</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"useTechnologyToBusiness.html\">Use of the technology to business</a>"+"</br></br>";
                 }
                 break;
             }
@@ -181,15 +163,11 @@ function talk(){
             {
                 if(page==1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"html/legalSocialEthicalAspects.html\">Legal,social and ethical aspects</a>"+"</br></br>";
+                  document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"html/legalSocialEthicalAspects.html\">Legal,social and ethical aspects</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"legalSocialEthicalAspects.html\">Legal,social and ethical aspects</a>"+"</br></br>";
+                    document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"legalSocialEthicalAspects.html\">Legal,social and ethical aspects</a>"+"</br></br>";
                 }
                 break;
             }
@@ -197,31 +175,23 @@ function talk(){
             {
                 if(page==1)
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"html/bibliography.html\">Bibliography</a>"+"</br></br>";
+                  document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"html/bibliography.html\">Bibliography</a>"+"</br></br>";
                 }
                 else
                 {
-                    str="[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page ";
-                    result=str.fontcolor("green");
-                    document.getElementById("chatLog").innerHTML += result + "<a href=\"bibliography.html\">Bibliography</a>"+"</br></br>";
+                  document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] The information that you are looking for are located in " + know[user] + " page"+ "<a href=\"bibliography.html\">Bibliography</a>"+"</br></br>";
                 }
                 break;
             }
             else{
-                str="[Help Desk 2.0: ] " + know[user];
-                result=str.fontcolor("green");
-                document.getElementById("chatLog").innerHTML += result +"</br></br>";
-                break;
+            document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] " + know[user] +"</br></br>";
+            break;
             }
         }
         unknow=1;
     }
     if(unknow==1){
-        str="[Help Desk 2.0: ] "+"I am really sorry. I am afraid that I don't understand your request. Can you be more specific?  What part of the report do you want to read? ";
-        result=str.fontcolor("green");
-        document.getElementById("chatLog").innerHTML += result +"</br></br>";
+        document.getElementById("chatLog").innerHTML += "[Help Desk 2.0: ] "+"I am really sorry. I am afraid that I don't understand your request. Can you be more specific?  What part of the report do you want to read? "+"</br></br>";
     }
 }
 
