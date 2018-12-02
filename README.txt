@@ -37,7 +37,7 @@ Here some information for the website:
 
 7 - Insert an image: 
                 <figure>
-                <img class="imgSize" src="img/LinkToYourImage.png" alt="Name of your image" />
+                <img class="imgSize" src="../img/LinkToYourImage.png" alt="Name of your image" />
                 <figcaption>Title Image</figcaption>
                 </figure>
 
@@ -53,6 +53,7 @@ Here some information for the website:
             <div id="panel">
                 <p>Information or Image to hide</p>
             </div>
+            add the javascript file add the end of the html file (flip script)
 
 10 - Create a rollover image: 
         <a href="#images" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img name="img2" border=0 height=100 width=90 src="../img/image1_rolloveroff.jpg" alt="Rollover"></a></li>
@@ -61,6 +62,7 @@ Here some information for the website:
                                             image2_rolloveroff.jpg and image2_rolloveron.jpg
 
         and in script folder, update the name of the images in scriptRollover.js
+        call the javascript file add the end of the html file (rollover script)
 
 11 - When you have finish your part: update the knowledge of the chatbot. The chatbot helps the navigation of the client on the website.
     The javascript program checks if it knowns one of the words that the customer has written (can be a word or a phrase). If it is not present, it will say that it doesn't understand the query. Otherwise, it will respond with a link.
