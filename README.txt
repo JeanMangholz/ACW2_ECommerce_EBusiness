@@ -54,6 +54,7 @@ Here some information for the website:
                 <p>Information or Image to hide</p>
             </div>
             add the javascript file add the end of the html file (flip script)
+            add this line add the end of the html file <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 
 10 - Create a rollover image: 
         <a href="#images" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><img name="img2" border=0 height=100 width=90 src="../img/image1_rolloveroff.jpg" alt="Rollover"></a></li>

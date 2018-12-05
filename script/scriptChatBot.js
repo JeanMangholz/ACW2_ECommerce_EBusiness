@@ -68,6 +68,16 @@ var know={
     "trend":"Trends",
     "Trends":"Trends",
     "Trend":"Trends",
+    "History":"Trends",
+    "history":"Trends",
+    "Evolution":"Trends",
+    "evolution":"Trends",
+    "time":"Trends",
+    "Time":"Trends",
+    "date":"Trends",
+    "dates":"Trends",
+    "Date":"Trends",
+    "Dates":"Trends",
     "Business":"UseTechnologyToBusiness",
     "business":"UseTechnologyToBusiness",
     "legal":"LegalSocialEthicalAspects",
@@ -88,6 +98,8 @@ var know={
     "Description":"DescriptionTechnology",
     "technology":"DescriptionTechnology",
     "Technology":"DescriptionTechnology",
+    "introduction":"DescriptionTechnology",
+    "Introduction":"DescriptionTechnology",
 };
 
 function talk(){
