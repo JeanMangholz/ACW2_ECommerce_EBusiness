@@ -72,11 +72,23 @@ ul.topnav li a.active {
 /* Title */
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif}
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0 0 0;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
 
 h2 {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px; margin: 0 0 24px;
+    padding: 0 30px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -94,6 +106,8 @@ div {
 p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .indent{
@@ -141,6 +155,8 @@ li {
 q{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif
+    font-size: 16px;
+    line-height: 28px;
 }
 
 /* center images University of Hull */
@@ -162,6 +178,8 @@ q{
     border: 1px solid #ddd;
     padding: 15px;
     text-align: left;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .tablePresentation tr:nth-child(even){background-color: #f2f2f2;}
